@@ -17,3 +17,10 @@ D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\obj\Release\Zero
 D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\obj\Release\ZeroValuedCreditNotes.csproj.CoreCompileInputs.cache
 D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\obj\Release\ZeroValuedCreditNotes.exe
 D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\obj\Release\ZeroValuedCreditNotes.pdb
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Release\Microsoft.Exchange.WebServices.Auth.dll
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Release\Microsoft.Exchange.WebServices.dll
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Release\Microsoft.Exchange.WebServices.pdb
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Release\Microsoft.Exchange.WebServices.xml
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Release\Microsoft.Exchange.WebServices.Auth.pdb
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Release\Microsoft.Exchange.WebServices.Auth.xml
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\obj\Release\ZeroValuedCreditNotes.csprojResolveAssemblyReference.cache

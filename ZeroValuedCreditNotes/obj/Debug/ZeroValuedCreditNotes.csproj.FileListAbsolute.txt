@@ -18,3 +18,9 @@ D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Debug\Entity
 D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Debug\EntityFramework.xml
 D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Debug\EntityFramework.SqlServer.xml
 D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\obj\Debug\ZeroValuedCreditNotes_Content.g.cs
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Debug\Microsoft.Exchange.WebServices.Auth.dll
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Debug\Microsoft.Exchange.WebServices.dll
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Debug\Microsoft.Exchange.WebServices.pdb
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Debug\Microsoft.Exchange.WebServices.xml
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Debug\Microsoft.Exchange.WebServices.Auth.pdb
+D:\Documents\GitHub\ZeroValuedCreditNotes\ZeroValuedCreditNotes\bin\Debug\Microsoft.Exchange.WebServices.Auth.xml

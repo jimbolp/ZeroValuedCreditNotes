@@ -3,7 +3,7 @@ using System.ComponentModel;
 
 namespace ZeroValuedCreditNotes
 {
-    internal class ZeroInvoice
+    public class ZeroInvoice
     {
         [DisplayName("Склад")]
         public string Branch { get; set; }
