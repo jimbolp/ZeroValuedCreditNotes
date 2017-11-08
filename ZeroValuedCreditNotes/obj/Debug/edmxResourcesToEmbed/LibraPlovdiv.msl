@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LibraPlovdivModelStoreContainer" CdmEntityContainer="LibraPlovdivEntities">
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="LibraPlovdivModel.Sale">
+        <MappingFragment StoreEntitySet="Sale">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CorrectedSaleID" ColumnName="CorrectedSaleID" />
+          <ScalarProperty Name="CreditReasonID" ColumnName="CreditReasonID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="DocTypeID" ColumnName="DocTypeID" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="DocNo" ColumnName="DocNo" />
+          <ScalarProperty Name="VATPercent" ColumnName="VATPercent" />
+          <ScalarProperty Name="MOLID" ColumnName="MOLID" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="AppUserID" ColumnName="AppUserID" />
+          <ScalarProperty Name="AppUserTime" ColumnName="AppUserTime" />
+          <ScalarProperty Name="PaymentConsignDate" ColumnName="PaymentConsignDate" />
+          <ScalarProperty Name="ShipmentDate" ColumnName="ShipmentDate" />
+          <ScalarProperty Name="RebatePeriodFrom" ColumnName="RebatePeriodFrom" />
+          <ScalarProperty Name="isCashRegistered" ColumnName="isCashRegistered" />
+          <ScalarProperty Name="isPayed" ColumnName="isPayed" />
+          <ScalarProperty Name="isPrinted" ColumnName="isPrinted" />
+          <ScalarProperty Name="ManipulUserID" ColumnName="ManipulUserID" />
+          <ScalarProperty Name="ManipulUserTime" ColumnName="ManipulUserTime" />
+          <ScalarProperty Name="DriverID" ColumnName="DriverID" />
+          <ScalarProperty Name="DriverTime" ColumnName="DriverTime" />
+          <ScalarProperty Name="RouteID" ColumnName="RouteID" />
+          <ScalarProperty Name="PaymentTypeID" ColumnName="PaymentTypeID" />
+          <ScalarProperty Name="PaymentTimeID" ColumnName="PaymentTimeID" />
+          <ScalarProperty Name="DiscountTypeID" ColumnName="DiscountTypeID" />
+          <ScalarProperty Name="TotalPriceNoVAT" ColumnName="TotalPriceNoVAT" />
+          <ScalarProperty Name="TotalDiscountSum" ColumnName="TotalDiscountSum" />
+          <ScalarProperty Name="TotalDeliveryPrice" ColumnName="TotalDeliveryPrice" />
+          <ScalarProperty Name="PaymentSum" ColumnName="PaymentSum" />
+          <ScalarProperty Name="RebateSumCorrection" ColumnName="RebateSumCorrection" />
+          <ScalarProperty Name="PayedRebateSum" ColumnName="PayedRebateSum" />
+          <ScalarProperty Name="isColumnNaturalRebatePercent" ColumnName="isColumnNaturalRebatePercent" />
+          <ScalarProperty Name="isSalePriceWithoutDiscount" ColumnName="isSalePriceWithoutDiscount" />
+          <ScalarProperty Name="isMathDiscountType" ColumnName="isMathDiscountType" />
+          <ScalarProperty Name="SpecialDrugForm" ColumnName="SpecialDrugForm" />
+          <ScalarProperty Name="isCustomerDelayPayments" ColumnName="isCustomerDelayPayments" />
+          <ScalarProperty Name="isPricing" ColumnName="isPricing" />
+          <ScalarProperty Name="TotalBasePrice" ColumnName="TotalBasePrice" />
+          <ScalarProperty Name="PaymentDateValuta" ColumnName="PaymentDateValuta" />
+          <ScalarProperty Name="OrderNo" ColumnName="OrderNo" />
+          <ScalarProperty Name="TotalAdditionalDiscountSum" ColumnName="TotalAdditionalDiscountSum" />
+          <ScalarProperty Name="AdditionalRebateSumCorrection" ColumnName="AdditionalRebateSumCorrection" />
+          <ScalarProperty Name="PayedAdditionalRebateSum" ColumnName="PayedAdditionalRebateSum" />
+          <ScalarProperty Name="isSalePriceWithoutRounding" ColumnName="isSalePriceWithoutRounding" />
+          <ScalarProperty Name="DistributeTime" ColumnName="DistributeTime" />
+          <ScalarProperty Name="isArchive" ColumnName="isArchive" />
+          <ScalarProperty Name="isPharmacyPriceWithoutDiscount" ColumnName="isPharmacyPriceWithoutDiscount" />
+          <ScalarProperty Name="OverdueInterestPeriodFrom" ColumnName="OverdueInterestPeriodFrom" />
+          <ScalarProperty Name="TotalNetoBasePrice" ColumnName="TotalNetoBasePrice" />
+          <ScalarProperty Name="TotalNetoNetoBasePrice" ColumnName="TotalNetoNetoBasePrice" />
+          <ScalarProperty Name="isJoined" ColumnName="isJoined" />
+          <ScalarProperty Name="OverdueInterestPeriodTo" ColumnName="OverdueInterestPeriodTo" />
+          <ScalarProperty Name="TargetActionID" ColumnName="TargetActionID" />
+          <ScalarProperty Name="isHighCost" ColumnName="isHighCost" />
+          <ScalarProperty Name="isFCOrder" ColumnName="isFCOrder" />
+          <ScalarProperty Name="VendorID" ColumnName="VendorID" />
+          <ScalarProperty Name="isPositioned" ColumnName="isPositioned" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

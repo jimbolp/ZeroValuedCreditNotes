@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibraSofiaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CorrectedSaleID" Type="bigint" />
+    <Property Name="CreditReasonID" Type="int" />
+    <Property Name="CustomerID" Type="int" />
+    <Property Name="SupplierID" Type="int" />
+    <Property Name="DocTypeID" Type="int" Nullable="false" />
+    <Property Name="DocDate" Type="smalldatetime" Nullable="false" />
+    <Property Name="DocNo" Type="bigint" Nullable="false" />
+    <Property Name="VATPercent" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+    <Property Name="MOLID" Type="int" Nullable="false" />
+    <Property Name="Remark" Type="varchar" MaxLength="1024" Nullable="false" />
+    <Property Name="AppUserID" Type="int" Nullable="false" />
+    <Property Name="AppUserTime" Type="smalldatetime" />
+    <Property Name="PaymentConsignDate" Type="smalldatetime" />
+    <Property Name="ShipmentDate" Type="smalldatetime" />
+    <Property Name="RebatePeriodFrom" Type="smalldatetime" />
+    <Property Name="isCashRegistered" Type="bit" Nullable="false" />
+    <Property Name="isPayed" Type="bit" Nullable="false" />
+    <Property Name="isPrinted" Type="bit" Nullable="false" />
+    <Property Name="ManipulUserID" Type="int" />
+    <Property Name="ManipulUserTime" Type="smalldatetime" />
+    <Property Name="DriverID" Type="int" />
+    <Property Name="DriverTime" Type="smalldatetime" />
+    <Property Name="RouteID" Type="int" />
+    <Property Name="PaymentTypeID" Type="int" Nullable="false" />
+    <Property Name="PaymentTimeID" Type="int" Nullable="false" />
+    <Property Name="DiscountTypeID" Type="int" Nullable="false" />
+    <Property Name="TotalPriceNoVAT" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="TotalDiscountSum" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="TotalDeliveryPrice" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="PaymentSum" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="RebateSumCorrection" Type="decimal" Precision="19" Scale="2" Nullable="false" />
+    <Property Name="PayedRebateSum" Type="decimal" Precision="19" Scale="2" Nullable="false" />
+    <Property Name="isColumnNaturalRebatePercent" Type="bit" Nullable="false" />
+    <Property Name="isSalePriceWithoutDiscount" Type="bit" Nullable="false" />
+    <Property Name="isMathDiscountType" Type="bit" Nullable="false" />
+    <Property Name="SpecialDrugForm" Type="varchar" MaxLength="40" />
+    <Property Name="isCustomerDelayPayments" Type="bit" Nullable="false" />
+    <Property Name="isPricing" Type="bit" Nullable="false" />
+    <Property Name="TotalBasePrice" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="PaymentDateValuta" Type="smalldatetime" />
+    <Property Name="OrderNo" Type="varchar" MaxLength="80" />
+    <Property Name="TotalAdditionalDiscountSum" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="AdditionalRebateSumCorrection" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="PayedAdditionalRebateSum" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="isSalePriceWithoutRounding" Type="bit" />
+    <Property Name="DistributeTime" Type="smalldatetime" />
+    <Property Name="isArchive" Type="bit" />
+    <Property Name="isPharmacyPriceWithoutDiscount" Type="bit" />
+    <Property Name="OverdueInterestPeriodFrom" Type="smalldatetime" />
+    <Property Name="TotalNetoBasePrice" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="TotalNetoNetoBasePrice" Type="decimal" Precision="19" Scale="2" />
+    <Property Name="isJoined" Type="bit" />
+    <Property Name="OverdueInterestPeriodTo" Type="smalldatetime" />
+    <Property Name="TargetActionID" Type="int" />
+    <Property Name="isHighCost" Type="bit" />
+    <Property Name="isFCOrder" Type="bit" />
+    <Property Name="VendorID" Type="tinyint" />
+    <Property Name="isPositioned" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="LibraSofiaModelStoreContainer">
+    <EntitySet Name="Sale" EntityType="Self.Sale" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
